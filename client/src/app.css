@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-dark: #0d3d0d;
+    --color-light: #a3b7a3;
+}
+body{
+    background-color: #092c09;
+}
+main{
+    position: relative;
+    padding: 100px 10px;
+    min-height: 100vh;
+    max-width: 750px;
+    margin: auto;
+    font-family: monospace;
+    color: white;
+}
+main.visual{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+main:not(.visual){
+    padding: 150px ;
+    font-size: large;
+}

@@ -1,0 +1,19 @@
+.attitude{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    user-select: none;
+    background-color: #55b718;
+    overflow: hidden;
+}
+
+.attitude::before{
+    content: '';
+    position: absolute;
+    bottom: var(--attitude);
+    height: 100%;
+    width: 100%;
+    background-color: #3636da;
+}
