@@ -1,0 +1,23 @@
+/* :host{
+} */
+.attitude{
+    /* --attiyude: none; */
+    width: 200px;
+    height: 200px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: #55b718;
+    overflow: hidden;
+}
+
+.attitude::before{
+    content: '';
+    position: absolute;
+    bottom:calc( var(--attitude) * 1%);
+    height: 100%;
+    width: 100%;
+    background-color: #3636da;
+}

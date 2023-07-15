@@ -9,7 +9,7 @@ import Alt from './components/alt/Alt'
 import { io } from 'socket.io-client';
 
 //set to my local host
-const URL = 'http://10.100.102.13:3500';
+const URL = 'localhost:3500';
 
 
 const socket = io(URL);

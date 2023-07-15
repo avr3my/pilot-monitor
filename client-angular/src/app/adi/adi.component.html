@@ -1,0 +1,6 @@
+<div *ngIf="displayVisual; else text" class="adi" >
+  <div class="attitude" [ngStyle]="{'--attitude': getCssAtitude()}"></div>
+</div>
+<ng-template #text>
+  <div>ADI: {{ adi }}</div>
+</ng-template>

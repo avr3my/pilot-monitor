@@ -1,0 +1,11 @@
+<div *ngIf="displayVisual; else text" class="compass" [style.--rotation.deg]="his">
+  <div class="arrow">↑</div>
+  <div class="values">0</div>
+  <div class="values">90</div>
+  <div class="values">180</div>
+  <div class="values">270</div>
+</div>
+
+<ng-template #text>
+  <div>HIS: {{ his }}</div>
+</ng-template>

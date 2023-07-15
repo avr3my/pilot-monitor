@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-dark: #0d3d0d;
+    --color-light: #a3b7a3;
+}
+body{
+    background-color: #092c09;
+}

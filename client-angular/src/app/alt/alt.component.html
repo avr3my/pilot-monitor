@@ -1,0 +1,20 @@
+<div *ngIf="displayVisual; else text" class="alt">
+  <input
+    class="range"
+    aria-label="inp"
+    type="range"
+    min="0"
+    max="3000"
+    [value]="alt"
+  />
+  <ul class="numbers">
+    <li>3000</li>
+    <li>2000</li>
+    <li>1000</li>
+    <li>0</li>
+  </ul>
+</div>
+
+<ng-template #text>
+  <div>ALT: {{ alt }}</div>
+</ng-template>

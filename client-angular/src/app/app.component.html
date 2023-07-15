@@ -1,0 +1,6 @@
+<main [ngClass]="{ visual: display.visual }">
+  <app-switch [setVisual]="setVisual" [display]="display"></app-switch>
+  <app-alt [displayVisual]="display.visual" [alt]="data.Altitude"></app-alt>
+  <app-his [displayVisual]="display.visual" [his]="data.HIS"></app-his>
+  <app-adi [displayVisual]="display.visual" [adi]="data.ADI"></app-adi>
+</main>
