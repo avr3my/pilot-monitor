@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 
 import Switch from './components/switch/Switch'
 import Compass from './components/compass/Compass'
-import Attitude from './atitude/Attitude'
+import Attitude from './components/atitude/Attitude'
 import Alt from './components/alt/Alt'
 
 import { io } from 'socket.io-client';
